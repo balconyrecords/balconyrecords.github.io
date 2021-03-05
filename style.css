@@ -1,0 +1,63 @@
+html body {
+  margin:0;
+  padding:0;
+}
+
+#rotator {
+  width:100%;
+  height:275px;
+  background-image:url('https://i.ibb.co/0jjNC9g/IMAGE-2021-03-05-15-52-33.jpg');
+  background-size:100% 100%;
+  -webkit-transition:all 1s linear;
+}
+
+.explore {
+  position:absolute;
+  top:50px;
+  color:#fff;
+  font-family:arial;
+  text-align:center;
+  font-weight:100;
+  top:100px;
+  left:0;
+  right:0;
+}
+
+.explore h1 {
+  font-size:100px;
+  margin:0;
+  padding:0;
+  line-height:130px;
+  text-shadow:2px 2px 15px rgba(0,0,0,1);
+}
+
+.explore h2 {
+  line-height:60px;
+  font-size:56px;
+  margin:0;
+  padding:0;
+  text-shadow:2px 2px 15px rgba(0,0,0,1);
+}
+
+.takeTour {
+  width:130px;
+  height:32px;
+  background-color:#06f;
+  margin:auto;
+  line-height:32px;
+  vertical-align:middle;
+  margin-top:50px;
+  border-radius:3px;
+}
+
+.takeTour:hover {
+  user-select:none;
+  cursor:pointer;
+  background-color:#09f;  
+}
+
+
+
+
+
+
